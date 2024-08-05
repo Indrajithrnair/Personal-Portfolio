@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+        <li><a href="#homepage">Homepage</a></li>
+        <li><a href="#about me">About me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact_me">Contact me</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section id="homepage">
+    <h1>Welcome,</h1>
+    <p>I am <strong>Indrajith R Nair</strong></p>
+    <img src='RP.jpg' alt="Photo of Myself" class="photo">
+    </section>
+    <section id="about me">
+        <h1>Personal Information</h1>
+        <p>i am a BCA graduate currently pursuing MCA from Marian College Kuttikanam.</p>
+        <p>i am 22 years old</p>
+        <p>i am from idukki district</p>
+        <h1>Academic Background</h1>
+        <p>I completed my 10th and 12th from vijayamatha pulic school thookupalam</p>
+        <p>i recieved my BCA certificate from MES College Nedumkanadam</p>
+        <h1>Skills</h1>
+        <p>Programing Languages :C,C++,Html,CSS</p>
+        <p>Tools: MY-SQL</p>
+        <p>Software: VS code</p> 
+    </section>  
+    <section id="projects">
+        <h1>Projects</h1>
+        <a href="#">
+            <div>
+            <h1>Airline Reservation System</h1>
+            <p>Airline Reservation System Helps people Book Airplane Tickets with Ease</p>
+            </div></a>
+        <a href="#">
+            <div>
+            <h1>Speech Emotion Recognition</h1>
+            <p>SER is a Speech Recognition software which can understand emotional speach</p>
+            </div></a>
+    </section>
+    <section id="resume">
+        <h1>Resume</h1>
+        <div class="rsme">
+                <img src="resume.jpg" alt="my resume" width="100%" height="1300px"><br>
+                <a href="resume.pdf" download="indresume">Download</a>
+        </div>        
+    </section>
+    <section id="contact_me">
+        <h1 class="contactme">Contact Me</h1>
+        <form id="contact_form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="125f62bd-5468-4538-98b4-00c54ced1021">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <!-- <footer id="Footer">
+        <div class="socials">
+            <p>Email: <a href="mailto:indrajithnair02@gmail.com">Indrajithnair02@gmail.com</a><br>
+            Instagram <a href="mailto:instagram.com">insta</a><br>
+            Linkdin <a href="mailto:linkdin.com">linkdin</a></p>
+        </div>
+    </footer> -->
+
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCSRQbTztHZb2S6G00UPa-qw"><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://github.com/Indrajithrnair"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+            <div class="footerNav">
+                <ul><li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">our Team</a></li>
+                </ul>
+            </div>
+    
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer">InD</span></p>
+        </div>
+    </footer>
+</body>
+</html>
